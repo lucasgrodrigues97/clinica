@@ -15,7 +15,7 @@
                 <input type="text" required class="form-control" name="nome_produto" id="nome_produto" value="{{isset($produto) ? $produto->nome_produto : ''}}">
             </div>
             <div class="col col-3">
-                <label for="preco_produto" class="">Preço do paciente</label>
+                <label for="preco_produto" class="">Preço do produto</label>
                 <input type="number" required class="form-control" name="preco_produto" id="preco_produto" value="{{isset($produto) ? $produto->preco_produto : ''}}">
             </div>
             <div class="col col-12 mt-1">
